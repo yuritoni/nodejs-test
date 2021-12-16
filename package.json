@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "run": "node app.js",
+    "build": "npm build",
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "rebuild": "npm run clean && npm install && npm run build"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -25,8 +30,5 @@
     "cucumber": "^5.0.3",
     "nodemon": "^1.18.8"
   },
-  "build": "npm build",
-  "clean": "rm -rf node_modules",
-  "reinstall": "npm run clean && npm install",
-  "rebuild": "npm run clean && npm install && npm run build"
+
 }
