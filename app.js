@@ -13,7 +13,7 @@ const MongoClient = require('mongodb').MongoClient;
     LOAD THE CONFIG
 ==========================*/
 const config = require('./config')
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8000
 
 
 const chalk = require('chalk');
