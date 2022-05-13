@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "run": "node app.js",
     "build": "npm build",
     "clean": "rm -rf node_modules",
